@@ -523,10 +523,15 @@ input:-webkit-autofill:focus {
     margin-bottom: 75px;
 }
 
+.footer-top .footerDownload > img {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
 .side-icon-box {
-    margin-bottom: 30px;
-    position: relative;
-    padding-left: 80px;
+    /*margin-bottom: 30px;*/
+    /*position: relative;*/
+    /*padding-left: 80px;*/
 }
 
 .side-icon-box a {
@@ -535,9 +540,10 @@ input:-webkit-autofill:focus {
 
 .side-icon-box .side-icon {
     position: absolute;
+    /*position: absolute;
     left: 0;
     top: 0;
-    width: 60px;
+    width: 60px;*/
 }
 
 .side-icon-box strong {
