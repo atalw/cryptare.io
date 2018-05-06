@@ -57,7 +57,7 @@
         background-color: #ffffff;
     }
     .mainmenu-area #primary-menu {
-        background-color: #138FC2;
+        background-color: #34526B;
     }
     .mainmenu-area #primary-menu ul {
         overflow-y: auto;
@@ -65,6 +65,10 @@
         margin: 0;
     }
     .mainmenu-area #primary-menu > ul > li > a {
+        padding: 15px;
+        overflow: hidden;
+    }
+    .mainmenu-area #primary-menu > ul > li > div > a {
         padding: 15px;
         overflow: hidden;
     }
