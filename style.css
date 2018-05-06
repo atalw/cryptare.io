@@ -378,7 +378,9 @@ input:-webkit-autofill:focus {
 *Header-area
 **/
 
-
+.header-area {
+    padding-top: 100px;
+}
 
 .overlay {
     position: relative;
