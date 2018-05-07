@@ -96,7 +96,6 @@ input:-webkit-autofill:focus {
 h1 .mb-3 {
 
 }
-
 /**
 *Helper-Classes
 **/
@@ -351,7 +350,11 @@ h1 .mb-3 {
     /*background: #fff;
     color: #000;
     border-radius: 10px;*/
+    /*margin-top: -10px;*/
     margin-top: -10px;
+    margin-bottom: -20px;
+    margin-left: -10px;
+
 }
 
 .mainmenu-area #primary-menu > ul > li > a.downloadButton:before {
