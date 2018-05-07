@@ -1,6 +1,11 @@
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+@media only screen and (min-width: 992px) {
+    .text-md-left { text-align: left; }
+    .text-md-right { text-align: right; }
+    .text-md-center { text-align: center; }
+    .text-md-justify { text-align: justify; }
+}
 
 
 /* Tablet Layout: 768px. */
@@ -32,6 +37,11 @@
         -ms-flex-pack: justify;
         justify-content: space-between;
     }
+
+    .text-sm-left { text-align: left; }
+    .text-sm-right { text-align: right; }
+    .text-sm-center { text-align: center; }
+    .text-sm-justify { text-align: justify; }
 }
 
 
@@ -108,6 +118,11 @@
     .mainmenu-area .logo {
         margin-left: 15px;
     }
+
+    .text-xs-left { text-align: left; }
+    .text-xs-right { text-align: right; }
+    .text-xs-center { text-align: center; }
+    .text-xs-justify { text-align: justify; }
 }
 
 
