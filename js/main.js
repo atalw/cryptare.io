@@ -20,58 +20,6 @@
         scrollSpeed: 900,
         animation: 'fade'
     });
-    /* testimonials Slider Active
-    =============================*/
-    $('.testimonials').owlCarousel({
-        loop: true,
-        margin: 0,
-        responsiveClass: true,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
-        items: 1
-    });
-    /* testimonials Slider Active
-    =============================*/
-    $('.screen-slider').owlCarousel({
-        loop: true,
-        margin: 0,
-        responsiveClass: true,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
-        items: 1,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut',
-        center: true,
-    });
-    /* testimonials Slider Active
-    =============================*/
-    $('.clients').owlCarousel({
-        loop: true,
-        margin: 30,
-        responsiveClass: true,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        smartSpeed: 1000,
-        navText: ['<i class="ti-arrow-left"></i>', '<i class="ti-arrow-right" ></i>'],
-        responsive: {
-            0: {
-                items: 3,
-            },
-            600: {
-                items: 4
-            },
-            1000: {
-                items: 6
-            }
-        }
-    });
     /*--------------------
        MAGNIFIC POPUP JS
        ----------------------*/
@@ -100,7 +48,7 @@
             }
         });
     };
-    // Call the functions 
+    // Call the functions
     magnifPopup();
 
     //Background Parallax
@@ -116,7 +64,7 @@
 
 
 
-    //Function to animate slider captions 
+    //Function to animate slider captions
     function doAnimations(elems) {
         //Cache the animationend event in a variable
         var animEndEv = 'webkitAnimationEnd animationend';
@@ -130,21 +78,21 @@
         });
     }
 
-    //Variables on page load 
+    //Variables on page load
     var $myCarousel = $('.caption-slider'),
         $firstAnimatingElems = $myCarousel.find('.item:first').find("[data-animation ^= 'animated']");
 
-    //Initialize carousel 
+    //Initialize carousel
     $myCarousel.carousel();
 
-    //Animate captions in first slide on page load 
+    //Animate captions in first slide on page load
     doAnimations($firstAnimatingElems);
 
-    //Pause carousel  
+    //Pause carousel
     $myCarousel.carousel('pause');
 
 
-    //Other slides to be animated on carousel slide event 
+    //Other slides to be animated on carousel slide event
     $myCarousel.on('slide.bs.carousel', function (e) {
         var $animatingElems = $(e.relatedTarget).find("[data-animation ^= 'animated']");
         doAnimations($animatingElems);
