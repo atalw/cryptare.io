@@ -278,7 +278,7 @@ h1 .mb-3 {
     left: 0;
     top: 0;
     width: 100%;
-    z-index: 9999999;
+    z-index: 999;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
