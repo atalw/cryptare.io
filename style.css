@@ -389,6 +389,10 @@ h1 .mb-3 {
 *Header-area
 **/
 
+#home-page {
+    padding-top: 80px;
+}
+
 .header-area {
     padding-top: 50px;
     padding-bottom: 50px;
