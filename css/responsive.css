@@ -14,6 +14,26 @@
     .mainmenu-area #primary-menu > ul > li > a {
         padding: 30px 12px;
     }
+    .floating-bar {
+        /* display: none; //remove comment to hide on mobile */
+        text-align: center;
+    }
+
+    .floating-bar .alignleft {
+        float: none;
+        margin-bottom: 7px;
+        margin-right: 0;
+    }
+
+    .floating-bar .alignright {
+        float: none;
+        margin-left: 0;
+    }
+
+    .floating-bar .button {
+        text-align: center;
+        width: 100%;
+    }
     .header-area {
         padding-top: 80px;
     }
@@ -56,6 +76,26 @@
         height: 100%;
         width: 150px;
         /*object-fit: cover;*/
+    }
+    .floating-bar {
+        /* display: none; //remove comment to hide on mobile */
+        text-align: center;
+    }
+
+    .floating-bar .alignleft {
+        float: none;
+        margin-bottom: 7px;
+        margin-right: 0;
+    }
+
+    .floating-bar .alignright {
+        float: none;
+        margin-left: 0;
+    }
+
+    .floating-bar .button {
+        text-align: center;
+        width: 100%;
     }
     #home-page {
         padding-top: 60px;
