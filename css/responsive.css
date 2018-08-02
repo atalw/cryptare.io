@@ -11,6 +11,10 @@
 /* Tablet Layout: 768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    video.demo-video {
+        /*width: 50%;*/
+        height: auto;
+    }
     .mainmenu-area #primary-menu > ul > li > a {
         padding: 30px 12px;
     }

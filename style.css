@@ -433,12 +433,22 @@ display: flex;
 }
 
 .header-text .cta {
-    margin-top: 30px;
+    /*margin-top: 30px;*/
 }
 
 .app-gif img {
     width: 100%;
     height: auto;
+}
+
+video.demo-video {
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+}
+
+.top-buffer {
+    margin-top: 10px;
 }
 
 
