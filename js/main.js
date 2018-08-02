@@ -9,7 +9,7 @@
 
     $('#accordion .panel-title a').prepend('<span></span>');
 
-    $('.preloader').fadeOut(500);
+    $('.preloader').fadeOut(2000);
 
     // Select all links with hashes
     $('.mainmenu-area a[href*="#"]')
