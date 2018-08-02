@@ -9,6 +9,7 @@
 
     $('#accordion .panel-title a').prepend('<span></span>');
 
+    $('.preloader').fadeOut(500);
 
     // Select all links with hashes
     $('.mainmenu-area a[href*="#"]')
@@ -48,7 +49,7 @@
 
     /* Preloader Js
     ===================*/
-    $(window).on("load", function () {
-        $('.preloader').fadeOut(500);
-    });
+    // $(window).on("load", function () {
+    //     $('.preloader').fadeOut(500);
+    // });
 })(jQuery);

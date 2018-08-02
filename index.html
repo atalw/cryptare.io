@@ -221,9 +221,19 @@
                     <h2>Multiple Portfolio Management</h2>
                     <p>Declutter your investments and transactions very easily! Separate your safe investments from your little-less-safe investments (we all like to gamble a bit 😉) or just simply use it to track a family member's portfolio without messing up your own portfolio.</p>
                     <a href="images/portfolio.gif" class="button white">Watch a quick GIF!</a>
+                    <!-- <a href="javascript:void(0);" class="button white" onclick="lightbox_open();">Watch a quick GIF!</a> -->
                 </div>
+
+
+            </div>
+
+            <div id="fade" onClick="lightbox_close();"></div>
+            <div id="light" class="">
+                <a class="boxclose" id="boxclose" onclick="lightbox_close();"></a>
+                <img id="VisaChipCardVideo" src="images/portfolio.gif">
             </div>
         </div>
+
     </section>
 
     <section class="header-area gray-bg v-center">
@@ -390,6 +400,28 @@
     <script src="js/vendor/bootstrap.min.js"></script>
     <!--Main-active-JS-->
     <script src="js/main.js"></script>
+    <script type="text/javascript">
+        window.document.onkeydown = function(e) {
+          if (!e) {
+            e = event;
+        }
+        if (e.keyCode == 27) {
+            lightbox_close();
+        }
+    }
+
+    function lightbox_open() {
+      var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+      document.getElementById('light').style.display = 'block';
+      document.getElementById('fade').style.display = 'block';
+  }
+
+  function lightbox_close() {
+      var lightBoxVideo = document.getElementById("VisaChipCardVideo");
+      document.getElementById('light').style.display = 'none';
+      document.getElementById('fade').style.display = 'none';
+  }
+    </script>
 </body>
 
 </html>
