@@ -34,6 +34,9 @@
         text-align: center;
         width: 100%;
     }
+    #mce-EMAIL {
+        margin-bottom: 10px;
+    }
     .header-area {
         padding-top: 80px;
     }
@@ -96,6 +99,9 @@
     .floating-bar .button {
         text-align: center;
         width: 100%;
+    }
+    #mce-EMAIL {
+        margin-bottom: 10px;
     }
     #home-page {
         padding-top: 60px;

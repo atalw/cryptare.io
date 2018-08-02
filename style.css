@@ -336,18 +336,20 @@ h1 .mb-3 {
 .floating-bar {
     background-color: #526b34;
     min-height: 50px;
-    padding: 5px;
+    padding: 0px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     z-index: 999; /* hide behind footer at bottom of page */
+display: flex;
+    align-items: center;
 }
 
 .floating-bar .form-container {
-    display: flex;
-    align-items: center;
-}
+    width: 100%;
+/*    background: black;
+*/}
 
 .sign-up-div {
     margin: auto;
@@ -363,23 +365,28 @@ h1 .mb-3 {
 
 }
 
-.control-label {
+.form-horizontal .control-label {
     color: #fff;
+    padding-top: 5px;
 }
 
 #close {
-    float: right;
-    display: inline-block;
+    color: white;
+    align-self: flex-start;
+    /*float: right;
+    display: inline-block;*/
     padding: 2px 5px;
     background: transparent;
     cursor: pointer;
+    font-weight: 700;
+    /*align-content: flex-end;*/
 }
 
 #close:hover {
-    float: right;
-    display: inline-block;
+    /*float: right;
+    display: inline-block;*/
     padding: 2px 5px;
-    color: #fff;
+    color: black;
 }
 
 
